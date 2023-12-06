@@ -10,7 +10,7 @@ typeWrite(document.querySelector(".typewriter"));
 
 hoverChangeExperience(
   ".nw",
-  `Atualmente trabalho no departamento técnico da NW. Sou responsável pela elaboração e configuração de servidores usando roteadores da Mikrotik, sistemas como ProxMox, OLTs da Vsol, entre outros aparelhos e sistemas. Também cuido do atendimento ao público fornecendo suporte técnico aos clientes.`,
+  `Trabalhei na NW Telecom no departamento técnico. Fui responsável pela elaboração e configuração de servidores usando roteadores da Mikrotik, OLTs da Vsol, entre outros aparelhos e sistemas. Uma das minhas funções era fornecer suporte técnico aos clientes. `,
   "Técnico em Telecomunicações",
   "NW Telecom",
   "Nov 2022 - Atual (Quase 1 ano)"

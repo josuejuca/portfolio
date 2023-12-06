@@ -300,7 +300,7 @@ header .grid-layout nav .nav-list li a:hover {
     font-family: "Saira";
 }
 
-#s-home .grid-layout #home #home-container-text a:hover { 
+#s-home .grid-layout #home #home-container-text a:hover {
     max-width: 270px
 }
 
@@ -311,10 +311,25 @@ header .grid-layout nav .nav-list li a:hover {
     transform: translate(0%, -50%)
 }
 
+/* Estilos padrão para o elemento */
+#contato {
+    display: none;
+    /* Esconde o elemento por padrão */
+}
+
+/* Media query para dispositivos com largura máxima de 768px (exemplo de dispositivo responsivo) */
+@media only screen and (max-width: 768px) {
+    #contato {
+        display: block !important;
+        /* Mostra o elemento quando a largura da tela for menor ou igual a 768px */
+    }
+}
+
 @media screen and (max-width: 1200px) {
     #s-home .grid-layout #home #logo {
-        display: none
+        display: none;
     }
+
 }
 
 #s-about {
@@ -326,6 +341,11 @@ header .grid-layout nav .nav-list li a:hover {
     #s-about {
         padding: 48px 24px
     }
+
+    #s-home .grid-layout #home #home-container-text a {
+        display: none;
+    }
+
 }
 
 #s-about .grid-layout #about {
@@ -604,11 +624,11 @@ header .grid-layout nav .nav-list li a:hover {
     border: 1px solid #e51d37
 }
 
-#s-projects .grid-layout #projects .naped {
+#s-projects .grid-layout #projects .biolink {
     border: 1px solid #00a3ff
 }
 
-#s-projects .grid-layout #projects .naped:hover {
+#s-projects .grid-layout #projects .biolink:hover {
     border: 1px solid #00a3ff
 }
 
@@ -676,6 +696,8 @@ header .grid-layout nav .nav-list li a:hover {
     font-size: 1.8rem;
     font-weight: 400
 }
+
+
 
 #s-projects .grid-layout a::after {
     content: "";
