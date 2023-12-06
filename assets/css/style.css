@@ -616,6 +616,39 @@ header .grid-layout nav .nav-list li a:hover {
     text-align: left
 }
 
+#s-projects .grid-layout #projects .playanimes {
+    border: 1px solid #ffffff;
+}
+
+#s-projects .grid-layout #projects .playanimes:hover {
+    border: 1px solid #ffffff;
+}
+
+
+#s-projects .grid-layout #playanimes {
+    color: #ffffff;
+}
+
+#s-projects .grid-layout #playanimes::after {
+    background: linear-gradient(270deg, #ffffff 0%, #17161d 100%);
+}
+
+#s-projects .grid-layout #projects .nwtelecom {
+    border: 1px solid #a5d051;
+}
+
+#s-projects .grid-layout #projects .nwtelecom:hover {
+    border: 1px solid #a5d051;
+}
+
+#s-projects .grid-layout #nwtelecom {
+    color: #a5d051;
+}
+
+#s-projects .grid-layout #nwtelecom::after {
+    background: linear-gradient(270deg, #ffffff 0%, #a5d051 100%);
+}
+
 #s-projects .grid-layout #projects .teslabank {
     border: 1px solid #e51d37
 }
