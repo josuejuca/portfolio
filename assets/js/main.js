@@ -41,6 +41,18 @@ hoverChangeDescription(
   "HTML é uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir."
 );
 hoverChangeDescription(
+  ".python",
+  "Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional."
+);
+hoverChangeDescription(
+  ".mysql",
+  "O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface."
+);
+hoverChangeDescription(
+  ".php",
+  "PHP é uma linguagem de script do tipo server-side com diversos propósitos."
+);
+hoverChangeDescription(
   ".css",
   "CSS é uma linguagem de folha de estilo composta por “camadas”, criado com o propósito de estilizar as páginas HTML."
 );
@@ -60,15 +72,4 @@ hoverChangeDescription(
   ".c",
   "C é uma linguagem de programação compilada de propósito geral, estruturada, imperativa, procedural, padronizada."
 );
-hoverChangeDescription(
-  ".python",
-  "Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional."
-);
-hoverChangeDescription(
-  ".php",
-  "PHP é uma linguagem de script do tipo server-side com diversos propósitos."
-);
-hoverChangeDescription(
-  ".mysql",
-  "O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface."
-);
+
