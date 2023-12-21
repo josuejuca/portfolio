@@ -68,3 +68,7 @@ hoverChangeDescription(
   ".php",
   "PHP é uma linguagem de script do tipo server-side com diversos propósitos."
 );
+hoverChangeDescription(
+  ".mysql",
+  "O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface."
+);
