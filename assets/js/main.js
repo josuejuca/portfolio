@@ -10,28 +10,28 @@ typeWrite(document.querySelector(".typewriter"));
 
 hoverChangeExperience(
   ".nw",
-  `Trabalhei na NW Telecom no departamento técnico. Fui responsável pela elaboração e configuração de servidores usando roteadores da Mikrotik, OLTs da Vsol, entre outros aparelhos e sistemas. Uma das minhas funções era fornecer suporte técnico aos clientes. `,
+  `Atuei na NW Telecom no departamento técnico, desempenhando o papel fundamental na elaboração e configuração de servidores, utilizando roteadores Mikrotik, OLTs Vsol, e outros dispositivos e sistemas especializados. Responsabilizei-me por fornecer suporte técnico dedicado aos clientes, garantindo a estabilidade e eficiência das soluções implementadas. Além disso, contribuí para o desenvolvimento de websites e sistemas personalizados para a empresa.`,
   "Técnico em Telecomunicações",
   "NW Telecom",
   "Nov 2022 - Atual (Quase 1 ano)"
 );
 hoverChangeExperience(
   ".t7",
-  `Trabalhei como desenvolvedor frontend e fui responsável por desenvolver templates para sites usando html, css, js, react. Ajudei também na criação de APIs usando python (FastAPI, Flask)`,
+  `Experiência como Desenvolvedor Frontend, onde desempenhei um papel essencial no desenvolvimento de templates para sites, utilizando HTML, CSS, JavaScript e React. Contribuí significativamente para a criação de APIs, utilizando Python e frameworks como FastAPI e Flask.`,
   "Frontend Developer",
   "T7 Themes",
   "Mar 2020 - Fev 2023 (Quase 3 anos)"
 );
 hoverChangeExperience(
   ".mh",
-  `Realizei o estágio na MH Informática, uma assistência técnica, tive a minha primeira experiência com  redes nesse estágio. Lá eu consegui aprender um pouco sobre como funciona a topologia de uma rede a nível provedor.`,
+  `Desenvolvi minhas habilidades durante meu estágio na MH Informática, uma assistência técnica. Essa experiência foi crucial, proporcionando-me a oportunidade de adquirir conhecimentos fundamentais sobre redes, especialmente em relação à topologia em um contexto de provedor de serviços.`,
   `Técnico em informatica`,
   "MH Informática",
   "Jan 2019 - Mar 2019 (3 meses)"
 );
 hoverChangeExperience(
   ".pes",
-  `Realizei o estágio na Pesquisa.com, uma lan house / assistência técnica. Onde pela primeira vez tive experiência com montagem e configuração de computadores.`,
+  `Realizei meu estágio na Pesquisa.com, uma lan house e assistência técnica. Durante esse período, tive a valiosa oportunidade de obter experiência prática na montagem e configuração de computadores, marcando meu primeiro contato direto com essas atividades.`,
   "Técnico em informatica",
   "Pesquisa.com",
   "Ago 2018 - Dez 2018 (6 meses)"
