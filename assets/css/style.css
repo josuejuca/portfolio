@@ -633,6 +633,44 @@ header .grid-layout nav .nav-list li a:hover {
     background: linear-gradient(270deg, #ffffff 0%, #17161d 100%);
 }
 
+
+#s-projects .grid-layout #projects .nwphone {
+    border: 1px solid #49a0ae;
+}
+
+#s-projects .grid-layout #projects .nwphone:hover {
+    border: 1px solid #49a0ae;
+}
+
+
+#s-projects .grid-layout #nwphone {
+    color: #49a0ae;
+}
+
+#s-projects .grid-layout #nwphone::after {
+    background: linear-gradient(270deg, #49a0ae 0%, #17161d 100%);
+}
+
+/*  */
+#s-projects .grid-layout #projects .jucasoft {
+    border: 1px solid #3f78e0;
+}
+
+#s-projects .grid-layout #projects .jucasoft:hover {
+    border: 1px solid #3f78e0;
+}
+
+
+#s-projects .grid-layout #jucasoft {
+    color: #3f78e0;
+}
+
+#s-projects .grid-layout #jucasoft::after {
+    background: linear-gradient(270deg, #3f78e0 0%, #17161d 100%);
+}
+/*  */
+
+
 #s-projects .grid-layout #projects .nwtelecom {
     border: 1px solid #a5d051;
 }
