@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+  <link rel="manifest" href="manifest.json">
   <meta charset="UTF-8" />
   <meta name="author" content="Juca" />
   <meta name="description"
@@ -398,6 +399,19 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
   <script type="module" src="assets/js/main.js"></script>
+
+  <!-- Script para registrar o service worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js')
+      .then(function(registration) {
+        console.log('Service Worker registrado com sucesso:', registration);
+      })
+      .catch(function(error) {
+        console.log('Falha ao registrar o Service Worker:', error);
+      });
+    }
+  </script
 </body>
 
 </html>
