@@ -2,416 +2,1450 @@
 <html lang="pt-br">
 
 <head>
-  <link rel="manifest" href="manifest.json">
-  <meta charset="UTF-8" />
-  <meta name="author" content="Juca" />
-  <meta name="description"
-    content="Meu nome é Josué Juca, Sou Front-end developer e estudante de programação e redes." />
-  <meta name="keywords"
-    content="sites, web, desenvolvimento, frontend, josue juca, mikrotik, programador, juca, front-end, designer, ui, josue, freelancer, freela, website, portfólio" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#ff3a5e" />
-  <meta name="copyright" content="Josue Juca 2023" />
-  <meta http-equiv="content-language" content="pt-br" />
-  <meta property="og:image" content="" />
-  <meta property="og:title" content="Portfólio - Josué Juca, Front-end" />
-  <meta property="og:description" content="Portfólio // Josue Juca" />
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-WPWWQ6V');</script>
-  <!-- End Google Tag Manager -->
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-P3MKMNS104"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  
-    gtag('config', 'G-P3MKMNS104');
-  </script>
-  <!-- End Google tag (gtag.js) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <link rel="shortcut icon" href="assets/image/labtocat.png" type="image/x-icon" />
-  <link rel="icon" href="assets/image/labtocat.png" />
-  <link rel="apple-touch-icon" href="assets/image/labtocat.png" />
-  <link rel="canonical" href="https://josuejuca.com/" />
-  <script src="assets/js/svg-inject.min.js"></script>
-  <title>Portfólio - Josué Juca, Front-end</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="">
+    <title>Josué Juca – Desenvolvedor Full-Stack | Portfólio</title>
+
+    <meta name="author" content="Juca" />
+    <meta name="description"
+        content="Meu nome é Josué Juca, Sou Desenvolvedor Full-Stack e estudante de programação e redes." />
+    <meta name="keywords"
+        content="sites, web, desenvolvimento, frontend, josue juca, mikrotik, programador, juca, front-end, designer, ui, josue, freelancer, freela, website, portfólio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#05791e" />
+    <meta name="copyright" content="Josue Juca 2026" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta property="og:image" content="" />
+    <meta property="og:title" content="Portfólio - Josué Juca, Full-Stack" />
+    <meta property="og:description" content="Portfólio // Josué Juca" />
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WPWWQ6V');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P3MKMNS104"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-P3MKMNS104');
+    </script>
+    <!-- End Google tag (gtag.js) -->
+
+
+    <!-- Bootstrap min css -->
+    <link rel="stylesheet" href="assets/css/vendor/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/plugins/swiper.css">
+    <link rel="stylesheet" href="assets/css/plugins/odometer.css">
+    <link rel="stylesheet" href="assets/css/vendor/animate.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WPWWQ6V"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  <header>
-    <div class="grid-layout">
-      <nav>
-        <!-- Logo do site -->
-        <div class="logo">
-          <a href="#s-home">J <span>(&nbsp; )</span> S U É J U C A</a>
+<body class="spybody color-green" data-spy="scroll" data-bs-target=".navbar-example2" data-offset="150">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WPWWQ6V" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- tpm-header-area start -->
+    <header class="tmp-header-area-start header-one header--sticky header--transparent">
+        <!-- header mid area start -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header-content">
+                        <div class="logo">
+                            <a href="/">
+                                <a href="/">J <span>(&nbsp; )</span> S U É J U C A</a>
+                            </a>
+                        </div>
+                        <div class="tmp-mainmenu-nav d-none d-xl-block">
+                            <nav class="navbar-example2 onepagenav">
+                                <ul class="tmp-mainmenu nav nav-pills">
+                                    <li class="current"><a class="smoth-animation" href="#home">Home</a></li>
+                                    <li class="nav-item"><a class="smoth-animation" href="#service">Serviços</a></li>
+                                    <li class="nav-item"><a class="smoth-animation" href="#resume-section">Experiências
+                                            e Acadêmico</a></li>
+                                    <li class="nav-item"><a class="smoth-animation" href="#about">JUCA Soft</a></li>
+                                    <li class="nav-item"><a class="smoth-animation" href="#resume">Skills</a></li>
+                                    <li class="nav-item"><a class="smoth-animation" href="#portfolio">Projetos</a></li>
+                                    <li class="nav-item"><a class="smoth-animation" href="#contact">Contato</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <div class="tmp-header-right">
+                            <div class="social-share-wrapper d-none d-md-block">
+                                <div class="social-link">
+                                    <a href="https://wa.me/5561984634855"><i class="fa-brands fa-whatsapp"></i></a>
+                                    <a href="http://instagram.com/ojosuejuca"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/in/josuejuca/"><i
+                                            class="fa-brands fa-linkedin-in"></i></a>
+                                    <a href="mailto:josuejuca19@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="tmp-side-collups-area d-block d-xl-none">
+                                <button class="hamberger-menu humberger_menu_active"><i id="menuBtn"
+                                        class="fa-light fa-bars humberger-menu"></i></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- FIM // logo do site -->
-        <div class="mobile-menu">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
+        <!-- header mid area end -->
+    </header>
+
+    <!-- Start Popup Mobile Menu  -->
+    <div class="d-block d-xl-none">
+        <div class="tmp-popup-mobile-menu">
+            <div class="inner">
+                <div class="header-top">
+                    <div class="logo">
+                        <a href="/">J <span>(&nbsp; )</span> S U É J U C A</a>
+                    </div>
+                    <div class="close-menu">
+                        <button class="close-button tmp-round-action-btn">
+                            <i class="fa-sharp fa-light fa-xmark"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <ul class="tmp-mainmenu onepagenav-click">
+                    <li><a class="smoth-animation" href="#home">Home</a></li>
+                    <li><a class="smoth-animation" href="#service">Serviços</a></li>
+                    <li><a class="smoth-animation" href="#resume-section">Experiências e Acadêmico</a></li>
+                    <li><a class="smoth-animation" href="#about">JUCA Soft</a></li>
+                    <li><a class="smoth-animation" href="#resume">Skills</a></li>
+                    <li><a class="smoth-animation" href="#portfolio">Projetos</a></li>
+                    <li><a class="smoth-animation" href="#contact">Contato</a></li>
+                </ul>
+
+                <!-- social sharea area -->
+                <div class="social-wrapper mt--40">
+                    <span class="subtitle">Minhas redes</span>
+                    <div class="social-link">
+                        <a href="https://wa.me/5561984634855"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="http://instagram.com/ojosuejuca"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/josuejuca/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="mailto:josuejuca19@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+                <!-- end -->
+
+            </div>
         </div>
-        <!-- navegação -->
-        <ul class="nav-list">
-          <!-- <li>
-            <a href="">Ínicio</a>
-          </li> -->
-          <li>
-            <a href="#s-about">Quem sou</a>
-          </li>
-          <li>
-            <a href="#s-experience">Experiências</a>
-          </li>
-          <li>
-            <a href="#s-projects">Projetos</a>
-          </li>
-          <li>
-            <a href="#s-services">Serviços</a>
-          </li>
-          <li>
-            <a href="#s-skills">Conhecimentos</a>
-          </li>
-          <li>
-            <a href="https://b.josuejuca.com" target="_blank">Contato</a>
-          </li>
-        </ul>
-      </nav>
     </div>
-  </header>
-  <!-- FIM // Header -->
-  <main>
-    <section id="s-home">
-      <div class="grid-layout">
-        <div id="home">
-          <div id="home-container-text">
-            <h1 class="delayMediumReveal">
-              Olá, eu sou o
-              <span>Juca.</span>
-            </h1>
-            <p class="typewriter">
-              Sou um estudante de programação e redes.
-            </p>
+    <!-- End Popup Mobile Menu  -->
 
-            <a title="Linkedin" href="https://www.linkedin.com/in/josuejuca/" rel="noopener" target="_blank"
-              class="delayExtraBigReveal">
-              <img src="https://img.icons8.com/ios/30/FFFFFF/linkedin-2--v1.png" alt="">
-            </a>
-            <a title="WhatsApp" href="https://api.whatsapp.com/send?phone=5561984634855&text=Oi" rel="noopener"
-              target="_blank" class="delayExtraBigReveal">
-              <img src="https://img.icons8.com/ios/30/FFFFFF/whatsapp--v1.png" alt="">
-            </a>
-            <a href="https://cv.josuejuca.com" title="Curriculum" rel="noopener" target="_blank"
-              class="delayExtraBigReveal">
-              <img src="https://img.icons8.com/ios/30/FFFFFF/parse-resume.png" alt="">
-            </a>
 
-          </div>
+    <!-- tmp banner area start -->
+    <div class="banner-right-thumbnail-area tmp-section-gap" id="home">
+        <div class="container">
+            <div class="row align-items-center pt--50">
+                <div class="col-lg-7">
+                    <div class="banner-right-thumb-left-content">
+                        <span class="pre-title">Welcome to my world</span>
+                        <h1 class="title">Olá, eu sou o Juca <br> Um
+                            <span class="header-caption">
+                                <span class="cd-headline clip is-full-width">
+                                    <span class="cd-words-wrapper">
+                                        <b class="is-visible theme-gradient">Desenvolvedor Full-Stack</b>
+                                        <b class="is-hidden theme-gradient">Técnico em Informática</b>
+                                        <b class="is-hidden theme-gradient">Analista de Redes</b>
+                                    </span>
+                                </span>
+                            </span>
+                        </h1>
+                        <p class="c"> Meu nome é Josué Juca, ou simplesmente "Juca". Tenho 22 anos, sou formado em T.I e
+                            atuo como Full-Stack Developer na imoGo. Atualmente estou cursando Engenharia de Software
+                            na Estácio. </p>
+                        <div class="find-me-on">
+                            <h2 class="find-me-on-title">Minhas redes</h2>
+                            <div class="social-link banner">
+                                <a href="https://wa.me/5561984634855"><i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="http://instagram.com/xduk13"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/josuejuca/"><i
+                                        class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="mailto:josuejuca19@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                                <a href="https://juk.re/cv-juca"><i class="fa-solid fa-memo"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="">
+                        <div class="thumbnail-right-inner-main-image tmponhover">
+                            <img src="assets/images/banner/juca.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </div>
+    <!-- tmp banner area end -->
+
+    <!-- tmp service area start -->
+    <div class="tmp-service-area tmp-section-gapBottom" id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-head mb--50">
+                        <div class="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                            <span class="subtitle">O que eu faço</span>
+                        </div>
+                        <h2 class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">Meus serviços
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="about-us-section-card row g-5">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="about-us-card tmp-scroll-trigger tmponhover tmp-fade-in animation-order-4"
+                        style="--x: 153px; --y: 11px;">
+                        <div class="card-head">
+                            <div class="logo-img">
+                                <i class="fa-solid fa-computer-mouse"></i>
+                                <!-- <i class="fa-solid fa-computer"></i> -->
+                            </div>
+                            <h3 class="card-title">Técnico de informática</h3>
+                        </div>
+                        <p class="card-para">Realizo manutenção em computadores e notebooks, efetuando a troca de peças,
+                            formatação e instalação de sistemas operacionais.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="about-us-card tmp-scroll-trigger tmponhover tmp-fade-in animation-order-5"
+                        style="--x: 193px; --y: 152px;">
+                        <div class="card-head">
+                            <div class="logo-img">
+                                <i class="fa-light fa-wifi"></i>
+                            </div>
+                            <h3 class="card-title">Analista de Redes</h3>
+                        </div>
+                        <p class="card-para">
+                            Configuro e otimizo redes, garantindo conectividade estável e segura com expertise em
+                            Mikrotik, UniFi, Cisco, Vsol e Tp Link.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="about-us-card tmp-scroll-trigger tmponhover tmp-fade-in animation-order-4"
+                        style="--x: 339px; --y: -1px;">
+                        <div class="card-head">
+                            <div class="logo-img">
+                                <i class="fa-light fa-code"></i>
+                            </div>
+                            <h3 class="card-title">Criação de sites e Apps</h3>
+                        </div>
+                        <p class="card-para">Desenvolvo soluções full stack com Python (FastAPI, Flask), React e React
+                            Native, integrando bancos de dados NoSQL e SQL para garantir desempenho, segurança e
+                            escalabilidade.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                    <div class="about-us-card tmp-scroll-trigger tmponhover tmp-fade-in animation-order-5"
+                        style="--x: 15px; --y: 61px;">
+                        <div class="card-head">
+                            <div class="logo-img">
+                                <i class="fa-regular fa-handshake"></i>
+                            </div>
+                            <h3 class="card-title">Integrações e Automações</h3>
+                        </div>
+                        <p class="card-para">Integro sistemas utilizando WhatsApp API, n8n, RD Station, Open IA e
+                            Gateways de Pagamento. Crio automações de processos que abrangem o envio automático de
+                            e-mails e mensagens, emissão de certidões governamentais e desenvolvo APIs personalizadas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tmp service area ends -->
+
+    <!--  -->
+    <section class="resume-section tmp-section-gapBottom" id="resume-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="section-header mb--50 tmp-scroll-trigger tmp-fade-in animation-order-1">
+                        <h2 class="section-title"><i class="fa-regular fa-award"></i> Experiência</h2>
+                    </div>
+
+                    <div class="resume-widget">
+                        <div class="resume-single tmp-scroll-trigger tmp-fade-in animation-order-1">
+                            <div class="time"><i class="fa-duotone fa-solid fa-circle-dot fa-fade mr--15"></i> 2024 -
+                                Atual</div>
+                            <h3 class="resume-title">Full-Stack Developer</h3>
+                            <div class="institute">imoGo</div>
+                        </div>
+                        <div class="resume-single tmp-scroll-trigger tmp-fade-in animation-order-2">
+                            <div class="time"><i class="fa-duotone fa-solid fa-circle-dot fa-fade mr--15"></i> 2022 -
+                                2023</div>
+                            <h3 class="resume-title">Técnico em Telecomunicações</h3>
+                            <div class="institute">NW Telecom</div>
+                        </div>
+                        <div class="resume-single tmp-scroll-trigger tmp-fade-in animation-order-3">
+                            <div class="time"><i class="fa-duotone fa-solid fa-circle-dot fa-fade mr--15"></i> 2020 -
+                                2023</div>
+                            <h3 class="resume-title">Frontend Developer</h3>
+                            <div class="institute">T7 Themes</div>
+                        </div>
+                        <div class="resume-single mb--0 tmp-scroll-trigger tmp-fade-in animation-order-4">
+                            <div class="time"><i class="fa-duotone fa-solid fa-circle-dot fa-fade mr--15"></i> 2018 -
+                                2018</div>
+                            <h3 class="resume-title">Técnico em Informática</h3>
+                            <div class="institute">Pesquisa.com (Lan House)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="section-header mb--50 tmp-scroll-trigger tmp-fade-in animation-order-1">
+                        <h2 class="section-title"> <i class="fa-regular fa-graduation-cap"></i> Acadêmico</h2>
+                    </div>
+
+                    <div class="resume-widget">
+                        <div class="resume-single tmp-scroll-trigger tmp-fade-in animation-order-1">
+                            <div class="time"><i class="fa-duotone fa-solid fa-circle-dot fa-fade mr--15"></i> 2023 -
+                                Cursando</div>
+                            <h3 class="resume-title">Engenharia de Software</h3>
+                            <div class="institute">Estácio</div>
+                        </div>
+                        <div class="resume-single tmp-scroll-trigger tmp-fade-in animation-order-2">
+                            <div class="time"><i class="fa-duotone fa-solid fa-circle-dot fa-fade mr--15"></i> 2024 -
+                                2024</div>
+                            <h3 class="resume-title">Técnico em Administração</h3>
+                            <div class="institute">Escola Técnica de Ceilândia</div>
+                        </div>
+                        <div class="resume-single tmp-scroll-trigger tmp-fade-in animation-order-3">
+                            <div class="time"><i class="fa-duotone fa-solid fa-circle-dot fa-fade mr--15"></i> 2022 -
+                                2023</div>
+                            <h3 class="resume-title">Técnico em Informática</h3>
+                            <div class="institute">Escola Técnica de Ceilândia</div>
+                        </div>
+                        <div class="resume-single mb--0 tmp-scroll-trigger tmp-fade-in animation-order-4">
+                            <div class="time"><i class="fa-duotone fa-solid fa-circle-dot fa-fade mr--15"></i> 2022 -
+                                2022</div>
+                            <h3 class="resume-title">Desenvolvimento de Sistemas</h3>
+                            <div class="institute">Praxis Educação</div>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://cv.josuejuca.com" target="_blank" style="text-align: center;">Confira o meu
+                    curriculo</a>
+            </div>
+        </div>
     </section>
+    <!--  -->
 
-    <section id="s-about">
-      <div class="grid-layout">
-        <div id="about">
-          <div id="about-photo">
-            <img src="assets/image/labtocat.png" width="400px" height="400px" alt="Gato do GitHub"
-              class="delayMediumReveal" id="photo-juca" />
-            <div class="about-figure figure-one icon-one delayExtraBigReveal">
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
-                width="45px" height="45px" alt="ícone html" />
+    <!-- tmp About Me Start -->
+    <section class="about-us-area tmp-section-gapBottom" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-us-left-content-wrap bg-vactor-one">
+                        <div class="years-of-experience-card tmp-scroll-trigger tmp-fade-in animation-order-1">
+                            <h2 class="counter card-title"><span class="odometer odometer-auto-theme odometer-triggered"
+                                    data-count="3">
+                                    <div class="odometer-inside"><span class="odometer-digit"><span
+                                                class="odometer-digit-spacer">8</span><span
+                                                class="odometer-digit-inner"><span class="odometer-ribbon"><span
+                                                        class="odometer-ribbon-inner"><span
+                                                            class="odometer-value">1</span></span></span></span></span><span
+                                            class="odometer-digit"><span class="odometer-digit-spacer">8</span><span
+                                                class="odometer-digit-inner"><span class="odometer-ribbon"><span
+                                                        class="odometer-ribbon-inner"><span
+                                                            class="odometer-value">0</span></span></span></span></span>
+                                    </div>
+                                </span>+
+                            </h2>
+                            <p class="card-para">anos de experiência</p>
+                        </div>
+                        <div class="design-card tmp-scroll-trigger tmp-fade-in animation-order-2">
+                            <div class="design-card-img">
+                                <div class="icon"><i class="fa-sharp fa-thin fa-globe"></i></div>
+                            </div>
+                            <div class="card-info">
+                                <h3 class="card-title">Sites & Sistemas</h3>
+                                <p class="card-para">+50 Projetos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-us-right-content-wrap">
+                        <div class="section-head text-align-left mb--50">
+                            <div class="section-sub-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                <span class="subtitle">Juca Soft</span>
+                            </div>
+                            <h2 class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">Soluções
+                                Digitais sob medida para impulsionar seu negócio.</h2>
+                            <p class="description tmp-scroll-trigger tmp-fade-in animation-order-3"></p>
+                        </div>
+                        <div class="about-us-section-card row g-5">
+
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="about-us-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-4"
+                                    style="--x: 12px; --y: 207px;">
+                                    <div class="card-head">
+                                        <div class="logo-img">
+                                            <i class="fa-light fa-code"></i>
+                                        </div>
+                                        <h3 class="card-title">Sites & Apps</h3>
+                                    </div>
+                                    <p class="card-para">Criamos sites e sistemas personalizados para atender as
+                                        necessidades
+                                        do seu negócio.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="about-us-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-5"
+                                    style="--x: 6px; --y: 222px;">
+                                    <div class="card-head">
+                                        <div class="logo-img">
+                                            <i class="fa-light fa-laptop"></i>
+                                        </div>
+                                        <h3 class="card-title">Suporte Técnico</h3>
+                                    </div>
+                                    <p class="card-para">Arrumamos computadores, notebooks e impressoras de forma rápida
+                                        e
+                                        eficiente.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="about-btn mt--40 tmp-scroll-trigger tmp-fade-in animation-order-6">
+                            <a class="tmp-btn hover-icon-reverse radius-round" target="_blank"
+                                href="https://jucasoft.com.br/">
+                                <span class="icon-reverse-wrapper">
+                                    <span class="btn-text">Saiba mais</span>
+                                    <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                    <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="about-figure figure-two icon-two delayExtraBigReveal">
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
-                width="45px" height="45px" alt="ícone css" />
-            </div>
-            <div class="about-figure figure-three icon-three delayExtraBigReveal">
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
-                width="45px" height="45px" alt="ícone javascript" />
-            </div>
-          </div>
-          <article id="about-text">
-            <h2 class="delaySmallReveal">Quem sou <span>.</span></h2>
-            <p class="delayMediumReveal">
-              Meu nome é Josué Juca, ou apenas “Juca” tenho 19 anos. Sou Front-end developer e estudante de programação
-              e redes. Atualmente estou cursando engenharia de software na Estácio.
-            </p>
-          </article>
         </div>
-      </div>
     </section>
+    <!-- tmp About Me end -->
 
-    <section id="s-experience">
-      <div class="grid-layout">
-        <h2 class="delaySmallReveal">Experiência <span>.</span></h2>
-        <div id="experience">
-          <div class="option-experience intervalCardReveal" id="experience-company">
-            <div class="company nw activeExperience">
-              <h3>NW Telecom</h3>
+    <!-- Tpm My Skill Area Start -->
+    <section class="my-skill-area-style-two plr--120 plr_lg--30 plr_md--30 plr_sm--30 plr_mobile--15 mt--10"
+        id="resume">
+        <div class="tpm-custom-box-bg tmponhover border--radious-20">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-6 col-lg-12 col-md-12">
+                        <div class="my-skill-area-left-content-wrap">
+                            <div class="section-head text-align-left">
+                                <div class="section-sub-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                    <span class="subtitle">Conhecimentos</span>
+                                </div>
+                                <h2 class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">Minhas
+                                    tecnologias</h2>
+                                <p class="description tmp-scroll-trigger tmp-fade-in animation-order-3">Ajudando
+                                    empresas a construírem produtos digitais de forma moderna e de alta qualidade.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-6 col-lg-12 col-md-12">
+                        <div class="my-skill-card-style-two row">
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <div class="my-skill-card tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                    <div class="card-icon">
+                                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
+                                            alt="my-skill-icon">
+                                    </div>
+                                    <h3 class="card-title">JavaScript</h3>
+                                    <p class="card-para">JavaScript é uma linguagem de programação interpretada
+                                        estruturada, de script em alto nível com tipagem dinâmica.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <div class="my-skill-card tmp-scroll-trigger tmp-fade-in animation-order-2">
+                                    <div class="card-icon">
+                                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+                                            alt="my-skill-icon">
+                                    </div>
+                                    <h3 class="card-title">React</h3>
+                                    <p class="card-para">ReactJS é uma biblioteca JavaScript de código aberto com foco
+                                        em criar interfaces de usuário em páginas web.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <div class="my-skill-card tmp-scroll-trigger tmp-fade-in animation-order-3">
+                                    <div class="card-icon">
+                                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+                                            alt="my-skill-icon">
+                                    </div>
+                                    <h3 class="card-title">Python</h3>
+                                    <p class="card-para">Python é uma linguagem de programação de alto nível,
+                                        interpretada de script, imperativa, orientada a objetos, funcional.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <div class="my-skill-card tmp-scroll-trigger tmp-fade-in animation-order-4">
+                                    <div class="card-icon">
+                                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-plain.svg"
+                                            alt="my-skill-icon">
+                                    </div>
+                                    <h3 class="card-title">FastAPI</h3>
+                                    <p class="card-para">FastAPI é um framework Python de código aberto com foco em
+                                        construir APIs web modernas e de alto desempenho.</p>
+                                </div>
+                            </div>
+
+                            <img src="https://camo.githubusercontent.com/a68ae1eb55599bd16ed536d115386ff6d17636713835ffb21f201c524eb11576/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d6769742c68746d6c2c6373732c736173732c6a732c72656163742c74732c707974686f6e2c666173746170692c666c61736b2c7068702c6d7973716c2c76657263656c2c6e65746c6966792c7673636f6465"
+                                alt="">
+
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="company t7">
-              <h3>T7 Themes</h3>
-            </div>
-            <div class="company pes">
-              <h3>Pesquisa.com</h3>
-            </div>
-            <div class="company mh">
-              <h3>MH Informatica</h3>
-            </div>
-          </div>
-          <div class="text-experience intervalCardReveal">
-            <div>
-              <h4 class="titleExperience">
-                Técnico em Telecomunicações
-              </h4>
-              <p class="dateExperience">Nov 2022 - Dez 2023</p>
-            </div>
-            <h5 class="companyExperience">NW Telecom</h5>
-            <p class="changeExperience">
-              Atuei na NW Telecom no departamento técnico, desempenhando o papel fundamental na elaboração e configuração de servidores, utilizando roteadores Mikrotik, OLTs Vsol, e outros dispositivos e sistemas especializados. Responsabilizei-me por fornecer suporte técnico dedicado aos clientes, garantindo a estabilidade e eficiência das soluções implementadas. Além disso, contribuí para o desenvolvimento de websites e sistemas personalizados para a empresa.
-            </p>
-          </div>
         </div>
-      </div>
     </section>
+    <!-- Tpm My Skill Area End -->
 
-    <section id="s-projects">
-      <div class="grid-layout">
-        <h2 class="delaySmallReveal">Projetos <span>.</span></h2>
-        <div id="projects">
-          <article class="intervalCardReveal biolink">
-            <h3>Bio Link Vue.js</h3>
-            <p>
-              BioLink é uma ferramenta experimental de link-in-bio, onde os dados ficam na URL, feito em Vue.js e
-              Styled-Components.
-            </p>
-            <a href="https://biolink.jucasoft.com.br/" rel="noopener" target="_blank">Visualizar projeto
-            </a>
-          </article>
-
-          <article class="intervalCardReveal nwtelecom">
-            <h3>NW Telecom</h3>
-            <p>
-              NW Telecom é um single-page feito para uma empresa de telecom, esse projeto foi feito em HTML usando
-              Bootstrap.
-
-            </p>
-            <a href="https://nwtelecom.josuejuca.com" rel="noopener" target="_blank" id="nwtelecom">Visualizar projeto
-            </a>
-          </article>
-
-          <article class="intervalCardReveal playanimes">
-            <h3>PlayAnimes</h3>
-            <p>
-              PlayAnimes é um site de streaming de animes desenvolvido em Python, utilizando Flask e Bootstrap, e
-              integrado com APIs
-            </p>
-            <a href="https://playanimes.josuejuca.com" rel="noopener" target="_blank" id="playanimes">Visualizar
-              projeto
-            </a>
-          </article>
-
-          <article class="intervalCardReveal nwphone">
-            <h3>NW Phone - SIP Client</h3>
-            <p>
-              NW Phone é um website feito para uma empresa de telecom, esse projeto foi feito em Python usando
-              Bootstrap, FastAPI e Flask.
-            </p>
-            <a href="https://nwphone.josuejuca.com/" rel="noopener" target="_blank" id="nwphone">Visualizar projeto
-            </a>
-          </article>
-
-          <article class="intervalCardReveal jucasoft">
-            <h3>JUCA Soft - Web</h3>
-            <p>
-              JUCA Soft é um website feito para uma agência de tecnologia, esse projeto foi feito em Python usando
-              Bootstrap, Flask e FastAPI.
-            </p>
-            <a href="https://jucasoft.com.br/" rel="noopener" target="_blank" id="jucasoft">Visualizar projeto
-            </a>
-          </article>
-
-          <article class="intervalCardReveal biolink">
-            <h3>JuKWave - Music App</h3>
-            <p>
-              JuKWave é um website feito para um aplicativo de musica, esse projeto foi feito em Flask usando
-              Bootstrap e FastAPI
-            </p>
-            <a href="https://jukwave.jucasoft.com.br/" rel="noopener" target="_blank">Visualizar projeto
-            </a>
-          </article>
-
-          <article class="intervalCardReveal playanimes">
-            <h3>Currículo Online</h3>
-            <p>
-              A versão digital do meu currículo feito com Next.js 
-            </p>
-            <a href="https://cv.josuejuca.com/" rel="noopener" id="playanimes" target="_blank">Visualizar projeto
-            </a>
-          </article>
-
-          <article class="intervalCardReveal biolink">
-            <h3>Juca Games - Blog</h3>
-            <p>
-              Juca Games é um template de blog, esse projeto foi feito em HTML usando
-              Bootstrap.
-            </p>
-            <a href="https://jucagames.josuejuca.com/" rel="noopener" target="_blank">Visualizar projeto
-            </a>
-          </article>
-          <article class="intervalCardReveal">
-            <h3>Em breve</h3>
-            <p>
-              Pegue o café e espere um pouco, estou desenvolvendo o projeto.
-            </p>
-          </article>
-        </div>
-        <a href="https://github.com/josuejuca?tab=repositories" rel="noopener" target="_blank" class="delayExtraBigReveal">Repositórios
-          de projetos</a>
-      </div>
-    </section>
-
-    <section id="s-services">
-      <div class="grid-layout">
-        <h2 class="delaySmallReveal">Serviços <span>.</span></h2>
-        <div id="services">
-          <article class="intervalCardReveal" data-sr-id="25"
-            style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all 1s ease 0s, opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s;">
-            <div>
-              <img src="https://img.icons8.com/ios/100/FFFFFF/workstation.png" width="100px" height="100px"
-                alt="ícone layers">
+    <!-- tmp Latest Portfolio Start -->
+    <section class="latest-portfolio-area custom-column-grid tmp-section-gap" id="portfolio">
+        <div class="container">
+            <div class="section-head mb--60">
+                <div class="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
+                    <span class="subtitle">Projetos</span>
+                </div>
+                <h2 class="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2"> Transformando Ideias em
+                    Realidade Digital </h2>
+                <p class="description section-sm tmp-scroll-trigger tmp-fade-in animation-order-3">Confira alguns dos
+                    projetos realizados por mim.</p>
             </div>
-            <h3>Técnico de informática</h3>
-            <p>
-              Realizo manutenção em computadores e notebooks, efetuando a troca de peças, formatação e instalação de
-              sistemas operacionais.
-            </p>
-          </article>
-          <article class="intervalCardReveal" data-sr-id="27"
-            style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all 1s ease 0s, opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s;">
-            <div>
-              <img src=" https://img.icons8.com/ios/100/FFFFFF/code--v1.png" width="100px" height="100px"
-                alt="ícone imagem">
+            <div class="latest-portfolio-tabs-area">
+                <nav>
+                    <ul class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <li>
+                            <button class="nav-link active" id="nav-all-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-all" type="button" role="tab" aria-controls="nav-all"
+                                aria-selected="true">All</button>
+                        </li>
+                        <li>
+                            <button class="nav-link" id="nav-branding-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-branding" type="button" role="tab" aria-controls="nav-branding"
+                                aria-selected="false">Web</button>
+                        </li>
+                        <li>
+                            <button class="nav-link" id="nav-design-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-design" type="button" role="tab" aria-controls="nav-design"
+                                aria-selected="false">Mobile</button>
+                        </li>
+                        <li>
+                            <button class="nav-link" id="nav-content-writing-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-content-writing" type="button" role="tab"
+                                aria-controls="nav-content-writing" aria-selected="false">Full-Stack</button>
+                        </li>
+                        <li>
+                            <button class="nav-link" id="nav-marketing-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-marketing" type="button" role="tab" aria-controls="nav-marketing"
+                                aria-selected="false">Outros</button>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="tab-content bg-blur-style-one" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab"
+                        tabindex="0">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div
+                                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                    <div class="portfoli-card-img">
+                                        <div class="img-box v2">
+                                            <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                                                href="https://nwphone.com.br" target="_blank">
+                                                <img class="w-100" src="assets/images/latest-portfolio/3.png"
+                                                    alt="Thumbnail">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-card-content-wrap">
+                                        <div class="content-left">
+                                            <h3 class="portfolio-card-title"><a href="https://nwphone.com.br"
+                                                    target="_blank">Site & App - NW Phone</a></h3>
+                                            <div class="tag-items">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Mobile</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Web</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Full-Stack</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <a class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                                            href="https://nwphone.com.br" target="_blank">
+                                            <span class="icon-reverse-wrapper">
+                                                <span class="btn-text">Ver Site</span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                            </span>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div
+                                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-2">
+                                    <div class="portfoli-card-img">
+                                        <div class="img-box v2">
+                                            <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                                                href="https://imogo.com.br" target="_blank">
+                                                <img class="w-100" src="assets/images/latest-portfolio/4.png"
+                                                    alt="Thumbnail">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-card-content-wrap">
+                                        <div class="content-left">
+                                            <h3 class="portfolio-card-title"><a href="https://imogo.com.br"
+                                                    target="_blank">Site & App - imoGo</a></h3>
+                                            <div class="tag-items">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Mobile</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Web</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Full-Stack</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                                            href="https://imogo.com.br" target="_blank">
+                                            <span class="icon-reverse-wrapper">
+                                                <span class="btn-text">Ver site</span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div
+                                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-3">
+                                    <div class="portfoli-card-img">
+                                        <div class="img-box v2">
+                                            <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1" href="#">
+                                                <img class="w-100" src="assets/images/demo/coming-soon.png"
+                                                    alt="Thumbnail">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-card-content-wrap">
+                                        <div class="content-left">
+                                            <h3 class="portfolio-card-title"><a href="#">Site & App - Dose Exata</a>
+                                            </h3>
+                                            <div class="tag-items">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Mobile</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Web</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Full-Stack</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <!-- <a class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                                            href="#">
+                                            <span class="icon-reverse-wrapper">
+                                                <span class="btn-text">View design</span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                            </span>
+                                        </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div
+                                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-3">
+                                    <div class="portfoli-card-img">
+                                        <div class="img-box v2">
+                                            <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1" href="#">
+                                                <img class="w-100" src="assets/images/demo/coming-soon.png"
+                                                    alt="Thumbnail">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-card-content-wrap">
+                                        <div class="content-left">
+                                            <h3 class="portfolio-card-title"><a href="#">Em breve</a></h3>
+                                            <div class="tag-items">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Outros</a>
+                                                    </li><!--
+                                                    <li>
+                                                        <a href="#" class="tag-item">Web</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Full-Stack</a> -->
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <!-- <a class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                                            href="#">
+                                            <span class="icon-reverse-wrapper">
+                                                <span class="btn-text">View design</span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                            </span>
+                                        </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-branding" role="tabpanel" aria-labelledby="nav-branding-tab"
+                        tabindex="0">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div
+                                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                    <div class="portfoli-card-img">
+                                        <div class="img-box v2">
+                                            <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                                                href="https://nwphone.com.br" target="_blank">
+                                                <img class="w-100" src="assets/images/latest-portfolio/3.png"
+                                                    alt="Thumbnail">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-card-content-wrap">
+                                        <div class="content-left">
+                                            <h3 class="portfolio-card-title"><a href="https://nwphone.com.br"
+                                                    target="_blank">Site & App - NW Phone</a></h3>
+                                            <div class="tag-items">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Mobile</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Web</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Full-Stack</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <a class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                                            href="https://nwphone.com.br" target="_blank">
+                                            <span class="icon-reverse-wrapper">
+                                                <span class="btn-text">Ver Site</span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                            </span>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div
+                                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-2">
+                                    <div class="portfoli-card-img">
+                                        <div class="img-box v2">
+                                            <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                                                href="https://imogo.com.br" target="_blank">
+                                                <img class="w-100" src="assets/images/latest-portfolio/4.png"
+                                                    alt="Thumbnail">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-card-content-wrap">
+                                        <div class="content-left">
+                                            <h3 class="portfolio-card-title"><a href="https://imogo.com.br"
+                                                    target="_blank">Site & App - imoGo</a></h3>
+                                            <div class="tag-items">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Mobile</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Web</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Full-Stack</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                                            href="https://imogo.com.br" target="_blank">
+                                            <span class="icon-reverse-wrapper">
+                                                <span class="btn-text">Ver site</span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div
+                                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-3">
+                                    <div class="portfoli-card-img">
+                                        <div class="img-box v2">
+                                            <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1" href="#">
+                                                <img class="w-100" src="assets/images/demo/coming-soon.png"
+                                                    alt="Thumbnail">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-card-content-wrap">
+                                        <div class="content-left">
+                                            <h3 class="portfolio-card-title"><a href="#">Site & App - Dose Exata</a>
+                                            </h3>
+                                            <div class="tag-items">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Mobile</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Web</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Full-Stack</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <!-- <a class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                                            href="#">
+                                            <span class="icon-reverse-wrapper">
+                                                <span class="btn-text">View design</span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                            </span>
+                                        </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-design" role="tabpanel" aria-labelledby="nav-design-tab"
+                        tabindex="0">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div
+                                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                    <div class="portfoli-card-img">
+                                        <div class="img-box v2">
+                                            <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                                                href="https://nwphone.com.br" target="_blank">
+                                                <img class="w-100" src="assets/images/latest-portfolio/3.png"
+                                                    alt="Thumbnail">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-card-content-wrap">
+                                        <div class="content-left">
+                                            <h3 class="portfolio-card-title"><a href="https://nwphone.com.br"
+                                                    target="_blank">Site & App - NW Phone</a></h3>
+                                            <div class="tag-items">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Mobile</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Web</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Full-Stack</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <a class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                                            href="https://nwphone.com.br" target="_blank">
+                                            <span class="icon-reverse-wrapper">
+                                                <span class="btn-text">Ver Site</span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                            </span>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div
+                                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-2">
+                                    <div class="portfoli-card-img">
+                                        <div class="img-box v2">
+                                            <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                                                href="https://imogo.com.br" target="_blank">
+                                                <img class="w-100" src="assets/images/latest-portfolio/4.png"
+                                                    alt="Thumbnail">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-card-content-wrap">
+                                        <div class="content-left">
+                                            <h3 class="portfolio-card-title"><a href="https://imogo.com.br"
+                                                    target="_blank">Site & App - imoGo</a></h3>
+                                            <div class="tag-items">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Mobile</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Web</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Full-Stack</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                                            href="https://imogo.com.br" target="_blank">
+                                            <span class="icon-reverse-wrapper">
+                                                <span class="btn-text">Ver site</span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div
+                                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-3">
+                                    <div class="portfoli-card-img">
+                                        <div class="img-box v2">
+                                            <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1" href="#">
+                                                <img class="w-100" src="assets/images/demo/coming-soon.png"
+                                                    alt="Thumbnail">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-card-content-wrap">
+                                        <div class="content-left">
+                                            <h3 class="portfolio-card-title"><a href="#">Site & App - Dose Exata</a>
+                                            </h3>
+                                            <div class="tag-items">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Mobile</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Web</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Full-Stack</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <!-- <a class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                                            href="#">
+                                            <span class="icon-reverse-wrapper">
+                                                <span class="btn-text">View design</span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                            </span>
+                                        </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-content-writing" role="tabpanel"
+                        aria-labelledby="nav-content-writing-tab" tabindex="0">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div
+                                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                    <div class="portfoli-card-img">
+                                        <div class="img-box v2">
+                                            <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                                                href="https://nwphone.com.br" target="_blank">
+                                                <img class="w-100" src="assets/images/latest-portfolio/3.png"
+                                                    alt="Thumbnail">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-card-content-wrap">
+                                        <div class="content-left">
+                                            <h3 class="portfolio-card-title"><a href="https://nwphone.com.br"
+                                                    target="_blank">Site & App - NW Phone</a></h3>
+                                            <div class="tag-items">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Mobile</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Web</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Full-Stack</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <a class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                                            href="https://nwphone.com.br" target="_blank">
+                                            <span class="icon-reverse-wrapper">
+                                                <span class="btn-text">Ver Site</span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                            </span>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div
+                                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-2">
+                                    <div class="portfoli-card-img">
+                                        <div class="img-box v2">
+                                            <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1"
+                                                href="https://imogo.com.br" target="_blank">
+                                                <img class="w-100" src="assets/images/latest-portfolio/4.png"
+                                                    alt="Thumbnail">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-card-content-wrap">
+                                        <div class="content-left">
+                                            <h3 class="portfolio-card-title"><a href="https://imogo.com.br"
+                                                    target="_blank">Site & App - imoGo</a></h3>
+                                            <div class="tag-items">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Mobile</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Web</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Full-Stack</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                                            href="https://imogo.com.br" target="_blank">
+                                            <span class="icon-reverse-wrapper">
+                                                <span class="btn-text">Ver site</span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div
+                                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-3">
+                                    <div class="portfoli-card-img">
+                                        <div class="img-box v2">
+                                            <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1" href="#">
+                                                <img class="w-100" src="assets/images/demo/coming-soon.png"
+                                                    alt="Thumbnail">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-card-content-wrap">
+                                        <div class="content-left">
+                                            <h3 class="portfolio-card-title"><a href="#">Site & App - Dose Exata</a>
+                                            </h3>
+                                            <div class="tag-items">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Mobile</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Web</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Full-Stack</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <!-- <a class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                                            href="#">
+                                            <span class="icon-reverse-wrapper">
+                                                <span class="btn-text">View design</span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                            </span>
+                                        </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-marketing" role="tabpanel" aria-labelledby="nav-marketing-tab"
+                        tabindex="0">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div
+                                    class="latest-portfolio-card-style-two image-box-hover tmp-scroll-trigger tmp-fade-in animation-order-3">
+                                    <div class="portfoli-card-img">
+                                        <div class="img-box v2">
+                                            <a class="tmp-scroll-trigger tmp-zoom-in animation-order-1" href="#">
+                                                <img class="w-100" src="assets/images/demo/coming-soon.png"
+                                                    alt="Thumbnail">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-card-content-wrap">
+                                        <div class="content-left">
+                                            <h3 class="portfolio-card-title"><a href="#">Em breve</a></h3>
+                                            <div class="tag-items">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Outros</a>
+                                                    </li><!--
+                                                    <li>
+                                                        <a href="#" class="tag-item">Web</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="tag-item">Full-Stack</a> -->
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <!-- <a class="tmp-btn hover-icon-reverse radius-round btn-border btn-md"
+                                            href="#">
+                                            <span class="icon-reverse-wrapper">
+                                                <span class="btn-text">View design</span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i
+                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                            </span>
+                                        </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <h3>Desenvolvimento Web</h3>
-            <p>
-              Desenvolvo sites profissionais, blogs, portfólios, landing pages
-              e e-commerce.
-            </p>
-          </article>
-          <article class="intervalCardReveal" data-sr-id="26"
-            style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all 1s ease 0s, opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s;">
-            <div>
-              <img src="https://img.icons8.com/ios/100/FFFFFF/wifi--v1.png" width="100px" height="100px"
-                alt="ícone código">
+        </div>
+    </section>
+    <!-- tmp Latest Portfolio end -->
+
+
+    <!-- Tpm Get In touch start -->
+    <section class="get-in-touch-area" id="contact">
+        <div class="container">
+            <div class="get-in-touch-wrapper tmponhover">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-5">
+                        <div class="contact-inner">
+                            <div
+                                class="section-head section-head-one-side text-align-left tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                <span class="title-left">Entre em contato</span>
+                            </div>
+                            <ul class="ft-link v2">
+                                <li class="tmp-scroll-trigger tmp-fade-in animation-order-1 tmp-link-animation">
+                                    <span class="ft-icon"><i class="fa-solid fa-envelope"></i></span>
+                                    <div class="ft-link-wrap">
+                                        <h4 class="link-title">E-mail:</h4>
+                                        <a href="mailto:josuejuca19@gmail.com">juca@josuejuca.com /
+                                            josuejuca19@gmail.com</a>
+                                    </div>
+                                </li>
+                                <li class="tmp-scroll-trigger tmp-fade-in animation-order-2">
+                                    <span class="ft-icon"><i class="fa-solid fa-location-dot"></i></span>
+                                    <div class="ft-link-wrap">
+                                        <h4 class="link-title">Localização:</h4>
+                                        <div>Brasília DF</div>
+                                    </div>
+                                </li>
+                                <li class="tmp-scroll-trigger tmp-fade-in animation-order-3 tmp-link-animation">
+                                    <span class="ft-icon"><i class="fa-solid fa-phone"></i></span>
+                                    <div class="ft-link-wrap">
+                                        <h4 class="link-title">Telefone:</h4>
+                                        <a href="#">+55 (61) 9 8463-4855</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="contact-inner">
+                            <div
+                                class="section-head section-head-one-side text-align-left tmp-scroll-trigger tmp-fade-in animation-order-1">
+                                <span class="title">Envie uma mensagem</span>
+                            </div>
+                            <div class="contact-form">
+                                
+                                <form class="tmp-dynamic-form" id="contact-form" method="POST" action="">
+                                    <div class="contact-form-wrapper row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input class="input-field" name="name" id="contact-name" placeholder="Nome" type="text" required>
+                                            </div>
+                                        </div>
+                                
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input class="input-field" name="phone" id="contact-phone" placeholder="Telefone" type="number" required>
+                                            </div>
+                                        </div>
+                                
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input class="input-field" name="email" id="contact-email" placeholder="exemplo@exemplo.com" type="email" required>
+                                            </div>
+                                        </div>
+                                
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input class="input-field" name="subject" id="subject" placeholder="Assunto" type="text">
+                                            </div>
+                                        </div>
+                                
+                                        <div class="col-lg-12">
+                                            <div class="form-group">
+                                                <textarea class="input-field" name="message" id="contact-message" placeholder="Mensagem" required></textarea>
+                                            </div>
+                                        </div>
+                                
+                                        <div class="col-lg-12">
+                                            <div class="tmp-button-here">
+                                                <button class="tmp-btn hover-icon-reverse radius-round w-100"
+                                                        name="submit" type="submit" id="submit">
+                                                    <span class="icon-reverse-wrapper">
+                                                        <span class="btn-text">Enviar</span>
+                                                        <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                        <span class="btn-icon"><i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                                
+                                <!-- Local onde as mensagens de sucesso/erro serão exibidas (opcional) -->
+                                <div style="margin: 10px;" id="form-messages"></div>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-            <h3>Técnico em rede</h3>
-            <p>
-              Configuro e otimizo redes, implementando soluções eficientes para garantir a conectividade estável e
-              segura dos sistemas da empresa.
-            </p>
-          </article>  
         </div>
-      </div>
     </section>
+    <!-- Tpm Get In touch End -->
 
-    <section id="s-skills">
-      <div class="grid-layout">
-        <div id="skills">
-          <article id="skills-text">
-            <h2 class="delaySmallReveal">Conhecimentos <span>.</span></h2>
-            <p class="delayMediumReveal changeDescription">
-              *passe o cursor do mouse no card para ler*
-            </p>
-          </article>
 
-          <div id="skills-cards">
-            <article class="html intervalCardReveal">
-              <span class="skills-cards-name-high">HTML</span>
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
-                width="60px" height="60px" alt="ícone do html" class="skills-icons" />
-            </article>
-            <article class="css intervalCardReveal">
-              <span class="skills-cards-name-high">CSS</span>
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
-                width="60px" height="60px" alt="ícone do css" class="skills-icons" />
-            </article>
-            <article class="js intervalCardReveal">
-              <span class="skills-cards-name-high">JavaScript</span>
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
-                width="60px" height="60px" alt="ícone do javascript" class="skills-icons" />
-            </article>
-            <article class="sass intervalCardReveal">
-              <span class="skills-cards-name-high">Sass</span>
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
-                width="60px" height="60px" alt="ícone do sass" class="skills-icons" />
-            </article>
-            <article class="react intervalCardReveal">
-              <span class="skills-cards-name-low">React</span>
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
-                width="60px" height="60px" alt="ícone do react" class="skills-icons" />
-            </article>
-            <article class="python intervalCardReveal">
-              <span class="skills-cards-name-low">Python</span>
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
-                width="60px" height="60px" alt="ícone do next" class="skills-icons" />
-            </article>
-            <article class="mysql intervalCardReveal" id="mysql">
-              <span class="skills-cards-name-low aumento-hover">MySQL</span>
-              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
-                width="60px" height="60px" alt="ícone do styled" class="skills-icons" />
-            </article>
-            <article class="php intervalCardReveal">
-              <span class="skills-cards-name-low">PHP</span>
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/php/php-original.svg"
-                width="60px" height="60px" alt="ícone do tailwind" class="skills-icons" />
-            </article>
-          </div>
+    <!-- Start Footer Area  -->
+    <div class="tmp-footer-area footer-style-4 tmp-section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-area text-center">
+                        <div class="logo">
+                            <a href="/">
+                                <img src="https://assets-juca.netlify.app/img/juca/juca-white.png" alt="Juca Logo">
+                            </a>
+                        </div>
+                        <p class="description mt--30">©
+                            <script>
+                                document.write(new Date().getFullYear())
+                            </script>
+                            . All rights reserved by <a target="_blank" href="https://www.josuejuca.com/">Juca.</a> <br>
+                            CNPJ: 58.220.431/0001-43
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </div>
+    <!-- End Footer Area  -->
 
-      <footer>
-        <div class="grid-layout">
-          <p id="direitos-autorais">©
-            <script>document.write(new Date().getFullYear())</script> Josue Juca
-          </p>
-          <div class="logo_Small">
-            <img src="https://assets-juca.netlify.app/img/juca/juca-white.png" alt="Logo JUCA" />
-          </div>
+
+    <!-- ready chatting option via email -->
+    <div class="ready-chatting-option tmp-ready-chat">
+        <!-- <input type="checkbox" id="click"> -->
+        <label for="click">
+            <a href="https://wa.me/5561984634855" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </label>
+        <!-- 
+         -->
+        <!-- <div class="wrapper">
+            <div class="head-text">
+                Let's chat with me? - Online
+            </div>
+            <div class="chat-box">
+                <div class="desc-text">
+                    Please fill out the form below to start chatting with me directly.
+                </div>
+                <form class="tmp-dynamic-form" action="#">
+                    <div class="field">
+                        <input class="input-field" name="name" placeholder="Your Name" type="text" required>
+                    </div>
+                    <div class="field">
+                        <input class="input-field" name="email" placeholder="Your Email" type="email" required>
+                    </div>
+                    <div class="field textarea">
+                        <textarea class="input-field" placeholder="Your Message" name="message" required></textarea>
+                    </div>
+                    <div class="field">
+                        <button name="submit" type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div> -->
+    </div>
+    <!-- ready chatting option via email end -->
+    <!-- progress area start -->
+    <div class="scrollToTop" style="display: block;">
+        <div class="arrowUp">
+            <i class="fa-light fa-arrow-up"></i>
         </div>
-      </footer>
-    </section>
-  </main>
-  <!-- Adicione a referência ao Bootstrap JS (opcional, se precisar de funcionalidades do Bootstrap) -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
-  <script type="module" src="assets/js/main.js"></script>
+        <div class="water" style="transform: translate(0px, 87%);">
+            <svg viewBox="0 0 560 20" class="water_wave water_wave_back">
+                <use xlink:href="#wave"></use>
+            </svg>
+            <svg viewBox="0 0 560 20" class="water_wave water_wave_front">
+                <use xlink:href="#wave"></use>
+            </svg>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 560 20" style="display: none;">
+                <symbol id="wave">
+                    <path
+                        d="M420,20c21.5-0.4,38.8-2.5,51.1-4.5c13.4-2.2,26.5-5.2,27.3-5.4C514,6.5,518,4.7,528.5,2.7c7.1-1.3,17.9-2.8,31.5-2.7c0,0,0,0,0,0v20H420z"
+                        fill="#"></path>
+                    <path
+                        d="M420,20c-21.5-0.4-38.8-2.5-51.1-4.5c-13.4-2.2-26.5-5.2-27.3-5.4C326,6.5,322,4.7,311.5,2.7C304.3,1.4,293.6-0.1,280,0c0,0,0,0,0,0v20H420z"
+                        fill="#"></path>
+                    <path
+                        d="M140,20c21.5-0.4,38.8-2.5,51.1-4.5c13.4-2.2,26.5-5.2,27.3-5.4C234,6.5,238,4.7,248.5,2.7c7.1-1.3,17.9-2.8,31.5-2.7c0,0,0,0,0,0v20H140z"
+                        fill="#"></path>
+                    <path
+                        d="M140,20c-21.5-0.4-38.8-2.5-51.1-4.5c-13.4-2.2-26.5-5.2-27.3-5.4C46,6.5,42,4.7,31.5,2.7C24.3,1.4,13.6-0.1,0,0c0,0,0,0,0,0l0,20H140z"
+                        fill="#"></path>
+                </symbol>
+            </svg>
 
-  <!-- Script para registrar o service worker -->
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/service-worker.js')
-      .then(function(registration) {
-        console.log('Service Worker registrado com sucesso:', registration);
-      })
-      .catch(function(error) {
-        console.log('Falha ao registrar o Service Worker:', error);
-      });
-    }
-  </script
+        </div>
+    </div>
+    <!-- progress area end -->
+    <!-- <div class="tmp-right-demo">
+    <button class="demo-button">
+        <p class="mb--0">48</p>
+        <span class="text">Demos</span>
+    </button>
+</div> -->
+
+
+
+
+
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/vendor/jquery-ui.min.js"></script>
+    <script src="assets/js/vendor/waypoints.min.js"></script>
+
+    <script src="assets/js/plugins/odometer.js"></script>
+    <script src="assets/js/vendor/appear.js"></script>
+
+
+    <script src="assets/js/vendor/jquery-one-page-nav.js"></script>
+    <script src="assets/js/plugins/swiper.js"></script>
+
+    <script src="assets/js/plugins/gsap.js"></script>
+    <script src="assets/js/plugins/splittext.js"></script>
+    <script src="assets/js/plugins/scrolltigger.js"></script>
+    <script src="assets/js/plugins/scrolltoplugins.js"></script>
+    <script src="assets/js/plugins/smoothscroll.js"></script>
+    <!-- bootstrap Js-->
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/waw.js"></script>
+    <script src="assets/js/plugins/isotop.js"></script>
+    <script src="assets/js/plugins/animation.js"></script>
+    <script src="assets/js/plugins/contact.form.js"></script>
+    <script src="assets/js/vendor/backtop.js"></script>
+    <script src="assets/js/plugins/text-type.js"></script>
+    <!-- custom Js -->
+    <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
